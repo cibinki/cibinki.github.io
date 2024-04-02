@@ -124,7 +124,7 @@ header .nav li.active ul.dropdown-menu li.active a{
 }
 header .nav li.active a,
 header .nav li.active a:hover{ 
-background: #99BF38 !important;
+background: #cc0000 !important;
 border-radius: 5px;
 }
 header .navbar-default .navbar-nav > .open > a,
