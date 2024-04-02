@@ -86,9 +86,9 @@ header .navbar {
     padding: 0 0 0 15px;
 }
 .logos {
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
     overflow: hidden;
     margin-top: -6px;
 }
