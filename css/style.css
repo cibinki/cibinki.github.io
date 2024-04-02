@@ -85,6 +85,14 @@ header .navbar {
     margin-top: 7px;
     padding: 0 0 0 15px;
 }
+.logos {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 .navbar-default .navbar-brand{
 color: #2FADDE;
 }
