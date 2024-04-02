@@ -94,7 +94,7 @@ header .navbar {
 }
 
 .navbar-default .navbar-brand{
-color: #2FADDE;
+color: #ffe6e6;
 }
 
 header .navbar-collapse  ul.navbar-nav {
@@ -103,7 +103,7 @@ header .navbar-collapse  ul.navbar-nav {
 }
 
 header .navbar-default{
-    background-color:#fff;
+    background-color:#ffe6e6;
 
     border-bottom: 2px solid #FFFFFF;	
 }
@@ -145,7 +145,7 @@ header .navbar {
 
 header .navbar-nav > li  {
     padding-bottom: 12px;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 
 header  .navbar-nav > li > a {
