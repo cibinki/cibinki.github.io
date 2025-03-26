@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 
 export default function Portfolio() {
   const [text, setText] = useState("");
@@ -38,6 +38,14 @@ export default function Portfolio() {
       >
         <h1 className="text-5xl font-bold mb-4">Cibin K I</h1>
         <p className="text-xl text-gray-600">{text}|</p>
+
+        <a
+          href="/Cibin_CV.pdf"
+          download
+          className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition"
+        >
+          <Download size={18} /> Download My Resume
+        </a>
       </motion.div>
 
       <section className="mb-20">
